@@ -124,8 +124,6 @@ namespace ProyectoPOO
                         Menu();
                         break;
                     case 3:
-                        Console.WriteLine("Saliendo del sistema");
-                        Environment.Exit(0);
                         break;
                     default:
                         Console.WriteLine("Opcion invalida");
@@ -149,7 +147,7 @@ namespace ProyectoPOO
                 Console.WriteLine("\t-->GENERAR INFORME................(3)");
                 Console.WriteLine("\t-->SALIR..........................(4)\n\n");
 
-                Console.Write("Seleccione una opción: ");
+                Console.Write("Seleccione una opción: ");  
                 int op = Convert.ToInt32(Console.ReadLine());
 
                 switch (op)
@@ -158,14 +156,46 @@ namespace ProyectoPOO
                         almacen.RealizarPedido();
                         break;
                     case 2:
-                        //
+                        almacen.MenuInventario();
                         break;
                     case 3:
-                        //
+                        almacen.Informes();
                         break;
                     case 4:
-                        Console.WriteLine("Saliendo del sistema");
-                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Opcion invalida");
+                        break;
+                }
+                Console.WriteLine("\nDesea continuar S(Si) / N(No): ");
+                resp = Console.ReadLine();
+            } while (resp == "S" || resp == "s");
+        }
+
+        public void MenuInventario()
+        {
+            CEmpAlmacen almacen = new CEmpAlmacen();
+            string resp;
+            do
+            {
+                Console.WriteLine("\n\t\t*M E N U\n");
+                Console.WriteLine("\t-->Agregar Producto...............(1)");
+                Console.WriteLine("\t-->Eliminar Producto..............(2)");
+                Console.WriteLine("\t-->SALIR..........................(3)\n\n");
+
+                Console.Write("Seleccione una opción: ");
+                int op = Convert.ToInt32(Console.ReadLine());
+
+                switch (op)
+                {
+                    case 1:
+                        almacen.AgregarInventario();
+                        break;
+                    case 2:
+                        almacen.EliminarInventario();
+                        break;
+                    case 3:
+                        MenuAlmacen();
                         break;
                     default:
                         Console.WriteLine("Opcion invalida");

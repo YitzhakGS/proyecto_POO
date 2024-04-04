@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
@@ -11,16 +12,10 @@ namespace ProyectoPOO
     {
         public string IdOrden { get; set; }
         public string TipoProductos { get; set; }
-        public int CantidadProductos { get; set; }
-        protected string Proveedor { get; set; }
-
-        public CPedidoAlmacen(string idOrden, string tipo, int cantidad, string proveedor) 
-        { 
-            this.IdOrden = idOrden;
-            this.TipoProductos = tipo;
-            this.CantidadProductos = cantidad;
-            this.Proveedor = proveedor;
-        }
+        public string CantidadProductos { get; set; }
+        public string Proveedor { get; set; }
+        public decimal Precio { get; set; }
+        public DateTime DateTime { get; set; }
 
     }
 }

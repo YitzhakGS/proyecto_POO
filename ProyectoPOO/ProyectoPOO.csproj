@@ -55,6 +55,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BDInforme.txt" />
+    <Content Include="BDInventario.txt" />
     <Content Include="BDProveedores.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

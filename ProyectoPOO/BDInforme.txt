@@ -1,0 +1,16 @@
+	ID Orden: 0003
+	Tipo de Productos: Vegetales
+	Proveedor: Distribuidora_Vega
+	Precio: $3.20
+	Cantidad de Productos: 100kg
+	Fecha y Hora: 4/4/2024 5:40:19 AM
+	--------------------------------------
+
+	ID Orden: 0001
+	Tipo de Productos: Carne_de_res
+	Proveedor: Carnicería_López
+	Precio: $5.50
+	Cantidad de Productos: 150kg
+	Fecha y Hora: 4/4/2024 5:40:28 AM
+	--------------------------------------
+
