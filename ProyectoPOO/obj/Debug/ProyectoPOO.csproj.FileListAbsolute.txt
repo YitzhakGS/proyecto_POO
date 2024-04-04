@@ -1,0 +1,14 @@
+C:\Users\Luis Mario\Documents\Programas POO\ProyectoPOO\ProyectoPOO\bin\Debug\ProyectoPOO.exe.config
+C:\Users\Luis Mario\Documents\Programas POO\ProyectoPOO\ProyectoPOO\bin\Debug\ProyectoPOO.exe
+C:\Users\Luis Mario\Documents\Programas POO\ProyectoPOO\ProyectoPOO\bin\Debug\ProyectoPOO.pdb
+C:\Users\Luis Mario\Documents\Programas POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.csproj.AssemblyReference.cache
+C:\Users\Luis Mario\Documents\Programas POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.csproj.CoreCompileInputs.cache
+C:\Users\Luis Mario\Documents\Programas POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.exe
+C:\Users\Luis Mario\Documents\Programas POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.pdb
+C:\Users\user}\Desktop\POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.csproj.AssemblyReference.cache
+C:\Users\user}\Desktop\POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.csproj.CoreCompileInputs.cache
+C:\Users\user}\Desktop\POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.exe
+C:\Users\user}\Desktop\POO\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.pdb
+C:\Users\user}\Desktop\POO\ProyectoPOO\ProyectoPOO\bin\Debug\ProyectoPOO.exe.config
+C:\Users\user}\Desktop\POO\ProyectoPOO\ProyectoPOO\bin\Debug\ProyectoPOO.exe
+C:\Users\user}\Desktop\POO\ProyectoPOO\ProyectoPOO\bin\Debug\ProyectoPOO.pdb
