@@ -64,6 +64,7 @@ namespace ProyectoPOO
         {
             CUsuario usuario = new CUsuario();
             string resp;
+            string[,] validado;
             do
             {
                 Console.Clear();
@@ -79,7 +80,14 @@ namespace ProyectoPOO
                 switch (op)
                 {
                     case 1:
-                        usuario.ValidarUsuario();
+                        usuario = usuario.ValidarUsuario();
+                        Console.ReadKey();
+                        //if (validado[0,0] == "true")
+                        if (usuario.IdUsuario != 0)
+                        {
+                            //MenuReservaciones(Convert.ToInt32(validado[0,1]));
+                            MenuReservaciones(usuario);
+                        }
                         break;
                     case 2:
                         usuario.RegistrarUsuario();
@@ -96,6 +104,49 @@ namespace ProyectoPOO
                         break;
                 }
                 Console.Write("\nDesea continuar S(Si) / N(No): ");
+                resp = Console.ReadLine();
+            } while (resp == "S" || resp == "s");
+        }
+
+        public static void MenuReservaciones(CUsuario Usuario)
+        {
+            CReservacion Reservacion = new CReservacion();
+            string resp;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("\t\t\t\t*MENU DE RESERVACIONES\n");
+                Console.WriteLine("\t-->REALIZAR RESERVACIÓN.......(1)");
+                Console.WriteLine("\t-->CONSULTAR RESERVACIÓN......(2)");
+                Console.WriteLine("\t-->REGRESAR...................(3)");
+                Console.WriteLine("\t-->SALIR......................(4)\n\n");
+
+                Console.Write("Seleccione una opción: ");
+                int op = Convert.ToInt32(Console.ReadLine());
+
+                switch (op)
+                {
+                    case 1:
+                        Usuario.RealizarReservacion(Usuario);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        Console.Write("\nIngrese el Id de su reservación: ");
+                        int IdR = Convert.ToInt32(Console.ReadLine());
+                        Reservacion.MostrarReservacion(Usuario, IdR);
+                        break;
+                    case 3:
+                        MenuUsuario();
+                        break;
+                    case 4:
+                        Console.WriteLine("Saliendo del sistema");
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Opcion invalida");
+                        break;
+                }
+                Console.WriteLine("\nDesea continuar S(Si) / N(No): ");
                 resp = Console.ReadLine();
             } while (resp == "S" || resp == "s");
         }
