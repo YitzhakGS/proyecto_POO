@@ -1,4 +1,11 @@
-1   1   1   1   1   1   
-
-2   3   3   3   3   3   
-
+1001    Carne de res       200 kg
+1002    Tortillas          150 kg
+1003    Vegetales          100 kg
+1004    Queso              80 kg
+1005    Especias           3 kg
+1006    Aguacates          50 pz
+1007    Arroz              120 kg
+1008    Frijoles           90 kg
+1009    Salsa              40 L
+1010    Limones            20 kg 
+2001    pollo              40kg
