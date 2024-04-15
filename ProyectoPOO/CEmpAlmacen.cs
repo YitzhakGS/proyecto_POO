@@ -43,7 +43,7 @@ namespace ProyectoPOO
                         break;
                     }
                     else
-                    {   //lee el archivo por renglones y lo mete en un arreglo para diferenciar cada elemento
+                    {   //lee el archivo por renglones y lo mete en una lista para diferenciar cada elemento
                         using (StreamReader streamReader = new StreamReader("..\\..\\BDProveedores.txt"))
                         {
                             TextReader DATAProveedores = streamReader;
@@ -205,12 +205,9 @@ namespace ProyectoPOO
                 Console.WriteLine(archivo.ReadToEnd());
             }
 
-
         }
 
-
     }
-
-    
+   
 
 }
