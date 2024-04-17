@@ -1,0 +1,6 @@
+﻿0001            Carne_de_res        Carnicería_López        $5.50     150kg
+0002            Tortillas           Tortillería_Hernández   $6.50     30kg
+0003            Vegetales           Distribuidora_Vega      $3.20     100kg
+0004            Queso               Lácteos_Martínez        $6.80     100kg
+0005            Especias            Especias_Morales        $2.50     5kg
+0006            Aguacates           Frutas_Valle            $1.80     200pz
