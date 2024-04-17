@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\cempalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\cpedidoalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\cpedidoalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|c:\\users\\user}\\desktop\\poo\\proyectopoo\\proyectopoo\\cempalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\cempalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,32 +15,28 @@
       "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\bdproveedores.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|c:\\users\\user}\\desktop\\poo\\proyectopoo\\proyectopoo\\bdinventario.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\bdinventario.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\bdinventario.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|c:\\users\\user}\\desktop\\poo\\proyectopoo\\proyectopoo\\bdinforme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\bdinforme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\bdinforme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\cpedidoalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\cpedidoalmacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\cempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\cempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:ProyectoPOO\\CUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|c:\\users\\user}\\desktop\\poo\\proyectopoo\\proyectopoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\cusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\cusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CPersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:ProyectoPOO\\CPersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\proyectopoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED7C656-136B-4F60-B585-3819EDA723A4}|ProyectoPOO\\ProyectoPOO.csproj|solutionrelative:proyectopoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BDInventario.txt",
+              "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\BDInventario.txt",
+              "RelativeDocumentMoniker": "ProyectoPOO\\BDInventario.txt",
+              "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\BDInventario.txt",
+              "RelativeToolTip": "ProyectoPOO\\BDInventario.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-04T08:53:44.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BDInforme.txt",
               "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\BDInforme.txt",
               "RelativeDocumentMoniker": "ProyectoPOO\\BDInforme.txt",
@@ -64,51 +77,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BDInventario.txt",
-              "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\BDInventario.txt",
-              "RelativeDocumentMoniker": "ProyectoPOO\\BDInventario.txt",
-              "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\BDInventario.txt",
-              "RelativeToolTip": "ProyectoPOO\\BDInventario.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-04T08:53:44.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "BDProveedores.txt",
               "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\BDProveedores.txt",
               "RelativeDocumentMoniker": "ProyectoPOO\\BDProveedores.txt",
               "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\BDProveedores.txt",
               "RelativeToolTip": "ProyectoPOO\\BDProveedores.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-04-03T12:14:34.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CEmpAlmacen.cs",
               "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CEmpAlmacen.cs",
               "RelativeDocumentMoniker": "ProyectoPOO\\CEmpAlmacen.cs",
               "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CEmpAlmacen.cs",
               "RelativeToolTip": "ProyectoPOO\\CEmpAlmacen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T03:57:58.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CPedidoAlmacen.cs",
               "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CPedidoAlmacen.cs",
               "RelativeDocumentMoniker": "ProyectoPOO\\CPedidoAlmacen.cs",
               "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CPedidoAlmacen.cs",
               "RelativeToolTip": "ProyectoPOO\\CPedidoAlmacen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T03:22:29.088Z",
               "EditorCaption": ""
@@ -121,7 +121,7 @@
               "RelativeDocumentMoniker": "ProyectoPOO\\CEmpleado.cs",
               "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CEmpleado.cs",
               "RelativeToolTip": "ProyectoPOO\\CEmpleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T03:59:22.893Z",
               "EditorCaption": ""
@@ -134,33 +134,33 @@
               "RelativeDocumentMoniker": "ProyectoPOO\\CUsuario.cs",
               "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CUsuario.cs",
               "RelativeToolTip": "ProyectoPOO\\CUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAtAAAA",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAcwDYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T21:13:20.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CPersona.cs",
               "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CPersona.cs",
               "RelativeDocumentMoniker": "ProyectoPOO\\CPersona.cs",
               "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\CPersona.cs",
               "RelativeToolTip": "ProyectoPOO\\CPersona.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T00:36:14.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoPOO\\Program.cs",
               "ToolTip": "C:\\Users\\user}\\Desktop\\POO\\ProyectoPOO\\ProyectoPOO\\Program.cs",
               "RelativeToolTip": "ProyectoPOO\\Program.cs",
-              "ViewState": "AQIAALoAAAAAAAAAAAAmwMUAAAAmAAAA",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAAAOMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T23:49:57.548Z",
               "EditorCaption": ""

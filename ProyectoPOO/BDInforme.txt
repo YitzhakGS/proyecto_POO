@@ -3,6 +3,17 @@
 	Proveedor: Distribuidora_Vega
 	Precio: $3.20
 	Cantidad de Productos: 100kg
+<<<<<<< HEAD
+	Fecha y Hora: 4/17/2024 10:53:27 AM
+	--------------------------------------
+
+	ID Orden: 0004
+	Tipo de Productos: Queso
+	Proveedor: Lácteos_Martínez
+	Precio: $6.80
+	Cantidad de Productos: 100kg
+	Fecha y Hora: 4/17/2024 10:53:33 AM
+=======
 	Fecha y Hora: 4/4/2024 5:40:19 AM
 	--------------------------------------
 
@@ -12,5 +23,6 @@
 	Precio: $5.50
 	Cantidad de Productos: 150kg
 	Fecha y Hora: 4/4/2024 5:40:28 AM
+>>>>>>> b7b5fb17cec0679124f0691f789752c8a9e018a1
 	--------------------------------------
 
