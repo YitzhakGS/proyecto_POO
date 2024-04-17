@@ -46,6 +46,7 @@
     <Compile Include="CEmpAlmacen.cs" />
     <Compile Include="CEmpleado.cs" />
     <Compile Include="CPedidoAlmacen.cs" />
+    <Compile Include="CReservacion.cs" />
     <Compile Include="CUsuario.cs" />
     <Compile Include="CPersona.cs" />
     <Compile Include="Program.cs" />
@@ -58,6 +59,9 @@
     <Content Include="BDInforme.txt" />
     <Content Include="BDInventario.txt" />
     <Content Include="BDProveedores.txt" />
+    <Content Include="BDReservaciones.txt" />
+    <Content Include="BDUser_Pass.txt" />
+    <Content Include="BDUsuarios.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

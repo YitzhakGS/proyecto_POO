@@ -16,6 +16,5 @@ namespace ProyectoPOO
         public string Proveedor { get; set; }
         public decimal Precio { get; set; }
         public DateTime DateTime { get; set; }
-
     }
 }

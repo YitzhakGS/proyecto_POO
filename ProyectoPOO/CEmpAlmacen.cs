@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,15 +12,19 @@ namespace ProyectoPOO
     internal class CEmpAlmacen:CEmpleado
     {
         List<CPedidoAlmacen> RegistroPedidos;
-        
-        public decimal dinero = 10000;
-        
 
         public CEmpAlmacen() 
         {
             RegistroPedidos = new List<CPedidoAlmacen>();
         }
-
+        /// <summary>
+        /// Autor: guerrero jimenez jesse isaac
+        /// esta funcion permite que el empelado acceda a la "base de datos" donde se guardan los proveedores, para posteriormente 
+        /// selecionar uno mediante el id_proveedor, que es mediante leer el archivo txt, e ir recorriendolo por renlones y luego
+        /// cada renglon se almacena en una cadena y se pasa a un arreglo donde se puede acceder a cada uno de los datos de forma separada,
+        /// cuando se selecciona un producto se guarda este arreglo del cual se obtienen los datos para asignarlos a una instancia de la
+        /// clase CPedidoAlmacen
+        /// </summary>
         public void RealizarPedido()
         {
             try
@@ -61,7 +66,6 @@ namespace ProyectoPOO
                                     Console.WriteLine("ID Proveedor  | Tipo de Producto  | Nombre del Proveedor  | Precio  | Cantidad");
                                     Console.WriteLine(DATO);
                                     Console.WriteLine("\nCONFIRMAR EL PEDIDO S(Si) / N(No): ");
-                                    
                                     break;
                                 }
                                 line = DATAProveedores.ReadLine();
@@ -88,8 +92,6 @@ namespace ProyectoPOO
                     DateTime fechaHoraActual = DateTime.Now;
                     //la cadena que contiene los datos del pedido lo paso a un arreglo y elimino los espacios
                     string[] orden = DATO.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                    /*for (int i = 0; i < orden.Length; i++) {Console.WriteLine(orden[i]);}
-                    Console.ReadLine();*/
                     pedido.IdOrden = orden[0];
                     pedido.TipoProductos = orden[1];
                     pedido.Proveedor = orden[2];
@@ -109,101 +111,136 @@ namespace ProyectoPOO
 
 
         }
-
+        /// <summary>
+        /// Autor: guerrero jiemenez jesse isaac
+        /// esta funcion muestra la "base de datos" o lista de el inventario en el almacen y le da al ususario
+        /// opciones para eliminar, o anexar algun producto
+        /// </summary>
         public void MenuInventario()
-        {   
-            Program menu = new Program();
-            Console.Clear();
-            Console.WriteLine("\t\t*LISTA DE INVENTARIO*\n");
-            Console.WriteLine("ID    | Tipo de Producto | Cantidad Disponible");
-            TextReader BDProveedores = new StreamReader("..\\..\\BDInventario.txt");
-            Console.WriteLine(BDProveedores.ReadToEnd());
-            BDProveedores.Close();
-            menu.MenuInventario();
+        {
+            try
+            {
+                Program menu = new Program();
+                Console.Clear();
+                Console.WriteLine("\t\t*LISTA DE INVENTARIO*\n");
+                Console.WriteLine("ID    | Tipo de Producto | Cantidad Disponible");
+                TextReader BDProveedores = new StreamReader("..\\..\\BDInventario.txt");
+                Console.WriteLine(BDProveedores.ReadToEnd());
+                BDProveedores.Close();
+                menu.MenuInventario();
+            }
+            catch (IOException ex) { Console.WriteLine(ex); }
         }
 
+
+        /// <summary>
+        /// Autor: guerrero jimenez jesse isaac
+        /// esta funcion es para anexar algun rpoducto a la lista de invetario y agregarlo al achivo BDInventario
+        /// </summary>
         public void AgregarInventario()
         {
-            Console.WriteLine("\tIngresa un ID para el producto:");
-            string IdProducto = Console.ReadLine().ToString();
-            Console.WriteLine("\tIngresa el nombre del producto:");
-            string TipoProducto = Console.ReadLine().ToString();
-            Console.WriteLine("\tIngresa la cantidad:");
-            string Cantidad = Console.ReadLine().ToString();
-            string lineaConFormato = $"{IdProducto,-7} {TipoProducto,-18} {Cantidad}";
-            TextWriter BDProveedores = File.AppendText("..\\..\\BDInventario.txt");
-            BDProveedores.WriteLine(lineaConFormato);
-            BDProveedores.Close();
-            Console.WriteLine("\tProducto agregado al inventario con éxito.\n");
-            Console.ReadLine();
-            MenuInventario();
+            try
+            {
+                Console.WriteLine("\tIngresa un ID para el producto:");
+                string IdProducto = Console.ReadLine().ToString();
+                Console.WriteLine("\tIngresa el nombre del producto:");
+                string TipoProducto = Console.ReadLine().ToString();
+                Console.WriteLine("\tIngresa la cantidad:");
+                string Cantidad = Console.ReadLine().ToString();
+                string lineaConFormato = $"{IdProducto,-7} {TipoProducto,-18} {Cantidad}";
+                TextWriter BDProveedores = File.AppendText("..\\..\\BDInventario.txt");
+                BDProveedores.WriteLine(lineaConFormato);
+                BDProveedores.Close();
+                Console.WriteLine("\tProducto agregado al inventario con éxito.\n");
+                Console.ReadLine();
+                MenuInventario();
+            }
+            catch (IOException ex ){ Console.WriteLine(ex); }
         }
 
 
+        /// <summary>
+        /// Autor: guerrero jimenez jesse isaac
+        /// esta funcion es para eliminar algun producto de la lista de inventari, dende lo busca por 
+        /// id y elimina esa linea
+        /// </summary>
         public void EliminarInventario()
         {
-            Console.WriteLine("Escribe el ID del producto que desea eliminar:");
-            string id = Console.ReadLine();
-
-            // Lista para almacenar todas las líneas del archivo, excepto la línea a eliminar
-            List<string> lineasArchivo = new List<string>();
-
-            using (StreamReader sr = new StreamReader("..\\..\\BDInventario.txt"))
+            try
             {
-                string linea;
-                while ((linea = sr.ReadLine()) != null)
-                {
-                    string[] palabras = linea.Split();
+                Console.WriteLine("Escribe el ID del producto que desea eliminar:");
+                string id = Console.ReadLine();
 
-                    // Si la línea no contiene el ID del producto a eliminar, agrégala a la lista
-                    if (id != palabras[0])
+                // Lista para almacenar todas las líneas del archivo, excepto la línea a eliminar
+                List<string> lineasArchivo = new List<string>();
+
+                using (StreamReader sr = new StreamReader("..\\..\\BDInventario.txt"))
+                {
+                    string linea;
+                    while ((linea = sr.ReadLine()) != null)
                     {
-                        lineasArchivo.Add(linea);
+                        string[] palabras = linea.Split();
+
+                        // Si la línea no contiene el ID del producto a eliminar, agrégala a la lista
+                        if (id != palabras[0])
+                        {
+                            lineasArchivo.Add(linea);
+                        }
                     }
                 }
-            }
 
-            // Reescribir el archivo con todas las líneas excepto la línea a eliminar
-            using (StreamWriter sw = new StreamWriter("..\\..\\BDInventario.txt"))
-            {
-                foreach (string linea in lineasArchivo)
+                // Reescribir el archivo con todas las líneas excepto la línea a eliminar
+                using (StreamWriter sw = new StreamWriter("..\\..\\BDInventario.txt"))
                 {
-                    sw.WriteLine(linea);
+                    foreach (string linea in lineasArchivo)
+                    {
+                        sw.WriteLine(linea);
+                    }
                 }
+                Console.WriteLine("Producto eliminado del inventario con éxito.");
+                MenuInventario();
             }
-            Console.WriteLine("Producto eliminado del inventario con éxito.");
-            MenuInventario();
+            catch (IOException ex) { Console.WriteLine(ex); }
         }
 
-
+        /// <summary>
+        /// Autor: guerrero jimenez jesse isaac 
+        /// en esta funcion utilizo StringBuilder para crear un contenedor de cadenas de texto en donde voy a anexar
+        /// asi como darle fornato a la instancias de CPedidoAlmacen, para despues escribir estas cadenas en el archico
+        /// BDInforme, guardando el archivo y mostrnadolo por pantalla, asi como el total del gasto que serian estos pedidos
+        /// </summary>
         public void Informes()
         {
-            Console.Clear();
-            Console.WriteLine("\t\t*LISTA DE PEDIDO REALIZADOS*\n");
-
-            StringBuilder contenidoArchivo = new StringBuilder();
-
-            foreach (CPedidoAlmacen pedido in RegistroPedidos)
+            try
             {
-                contenidoArchivo.AppendLine($"\tID Orden: {pedido.IdOrden}");
-                contenidoArchivo.AppendLine($"\tTipo de Productos: {pedido.TipoProductos}");
-                contenidoArchivo.AppendLine($"\tProveedor: {pedido.Proveedor}");
-                contenidoArchivo.AppendLine($"\tPrecio: ${pedido.Precio}");
-                contenidoArchivo.AppendLine($"\tCantidad de Productos: {pedido.CantidadProductos}");
-                contenidoArchivo.AppendLine($"\tFecha y Hora: {pedido.DateTime}");
-                contenidoArchivo.AppendLine("\t--------------------------------------\n");
-            }
+                Console.Clear();
+                Console.WriteLine("\t\t*LISTA DE PEDIDO REALIZADOS*\n");
 
-            // Escribir el contenido en el archivo
-            using (TextWriter archivo = new StreamWriter("..\\..\\BDInforme.txt"))
-            {
-                archivo.Write(contenidoArchivo.ToString());
-            }
+                StringBuilder contenidoArchivo = new StringBuilder();
 
-            using (TextReader archivo = new StreamReader("..\\..\\BDInforme.txt"))
-            {
-                Console.WriteLine(archivo.ReadToEnd());
+                foreach (CPedidoAlmacen pedido in RegistroPedidos)
+                {
+                    contenidoArchivo.AppendLine($"\tID Orden: {pedido.IdOrden}");
+                    contenidoArchivo.AppendLine($"\tTipo de Productos: {pedido.TipoProductos}");
+                    contenidoArchivo.AppendLine($"\tProveedor: {pedido.Proveedor}");
+                    contenidoArchivo.AppendLine($"\tPrecio: ${pedido.Precio}");
+                    contenidoArchivo.AppendLine($"\tCantidad de Productos: {pedido.CantidadProductos}");
+                    contenidoArchivo.AppendLine($"\tFecha y Hora: {pedido.DateTime}");
+                    contenidoArchivo.AppendLine("\t--------------------------------------\n");
+                }
+
+                // Escribir el contenido en el archivo
+                using (TextWriter archivo = new StreamWriter("..\\..\\BDInforme.txt"))
+                {
+                    archivo.Write(contenidoArchivo.ToString());
+                }
+                // mostrar el contenido en pantalla
+                using (TextReader archivo = new StreamReader("..\\..\\BDInforme.txt"))
+                {
+                    Console.WriteLine(archivo.ReadToEnd());
+                }
             }
+            catch (IOException ex) { Console.WriteLine(ex); }
 
         }
 
